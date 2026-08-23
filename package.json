@@ -1,0 +1,21 @@
+{
+  "name": "iamfelix1111.github.io",
+  "version": "1.0.0",
+  "description": "GitHub Pages",
+  "devDependencies": {
+    "serve": "^14.2.6"
+  },
+  "scripts": {
+    "start": "serve ./src -l 8000 --ssl-cert cert.pem --ssl-key key.pem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamFelix1111/iamfelix1111.github.io.git"
+  },
+  "author": "IamFelix",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/IamFelix1111/iamfelix1111.github.io/issues"
+  },
+  "homepage": "https://iamfelix1111.github.io"
+}
