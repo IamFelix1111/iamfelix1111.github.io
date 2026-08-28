@@ -6,7 +6,7 @@
     "serve": "^14.2.6"
   },
   "scripts": {
-    "start": "serve ./src -l 8000 --ssl-cert cert.pem --ssl-key key.pem"
+    "start": "serve src -l 8000 --ssl-cert cert.pem --ssl-key key.pem"
   },
   "repository": {
     "type": "git",

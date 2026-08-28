@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "checkJs": false
+  },
+  "include": ["src", "dev-server.js"]
+}

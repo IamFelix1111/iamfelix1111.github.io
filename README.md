@@ -1,6 +1,6 @@
 # [IamFelix](https://github.com/IamFelix1111)
 
-My homepage, hosted on [GitHub Pages](https://iamfelix1111.github.io).
+My homepage, hosted on GitHub Pages <https://iamfelix1111.github.io>.
 
 ## Overview
 
