@@ -38,6 +38,34 @@ main {
     margin-top: 50px;
     padding: 10px;
     min-height: calc(100vh - 100px);
+    section {
+        margin-bottom: 1.4em;
+    }
+    h1 {
+        font-size: 1.4em;
+        margin: 0 0 0.5em;
+    }
+    h2 {
+        font-size: 1.1em;
+        margin: 0.8em 0 0.4em;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 0.2em;
+    }
+    ul {
+        margin: 0.4em 0;
+        padding-left: 1.5em;
+    }
+    li {
+        margin: 0.25em 0;
+    }
+    code {
+        background: #ddd;
+        border-radius: 4px;
+        padding: 0 4px;
+    }
+    p {
+        margin: 0.5em 0;
+    }
 }
 
 footer {
