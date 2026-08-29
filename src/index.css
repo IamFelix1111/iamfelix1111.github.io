@@ -2,21 +2,18 @@ main a {
     display: block;
     text-decoration: none;
     width: fit-content;
-    div {
-        background: #ddd;
-        color: #000;
-        border: 1px solid #000;
-        border-radius: 8px;
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-        width: auto;
-        &:hover {
-            background: #ccc;
-        }
-        img {
-            width: 16px;
-            height: 16px;
-        }
+    background: #ddd;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover {
+        background: #ccc;
+    }
+    img {
+        width: 16px;
+        height: 16px;
     }
 }

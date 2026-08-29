@@ -10,15 +10,13 @@ header {
     gap: 10px;
     background: #555;
     color: #fff;
-    font-size: 24px;
-    font-weight: bold;
     position: fixed;
     top: 0;
     left: 0;
     height: 50px;
     width: 100vw;
     .back {
-        position: absolute;
+        position: fixed;
         left: 15px;
         color: #fff;
         text-decoration: none;
@@ -28,9 +26,82 @@ header {
             text-decoration: underline;
         }
     }
-    img {
-        width: 24px;
-        height: 24px;
+    .title {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img {
+            width: 24px;
+            height: 24px;
+        }
+        font-size: 24px;
+        font-weight: bold;
+    }
+    lang-select {
+        position: fixed;
+        right: 15px;
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+        .lang-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 15px;
+            font-family: inherit;
+            cursor: pointer;
+            padding: 4px 6px;
+            border-radius: 6px;
+            &:hover {
+                background: #666;
+            }
+            .lang-icon {
+                width: 20px;
+                height: 20px;
+            }
+            .caret {
+                width: 12px;
+                height: 12px;
+                transition: transform 0.15s;
+            }
+        }
+        .lang-menu {
+            display: none;
+            position: absolute;
+            right: 0;
+            margin: 0;
+            padding: 4px 0;
+            list-style: none;
+            background: #666;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            min-width: 100px;
+            z-index: 10;
+            li {
+                padding: 6px 12px;
+                cursor: pointer;
+                white-space: nowrap;
+                font-weight: normal;
+                &:hover {
+                    background: #777;
+                }
+                &.active {
+                     font-weight: bold;
+                }
+            }
+        }
+        &.open{
+            .lang-menu {
+                display: block;
+            }
+            .caret {
+                transform: rotate(180deg);
+            }
+        }
     }
 }
 
