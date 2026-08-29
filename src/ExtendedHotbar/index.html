@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ExtendedHotbar/style.css">
     <link rel="stylesheet" href="/style.css">
     <link rel="author" href="https://github.com/IamFelix1111">
-    <link rel="icon" type="image/svg" href="/ExtendedHotbar/icon.png">
+    <link rel="icon" type="image/png" href="/ExtendedHotbar/icon.png">
     <title>ExtendedHotbar</title>
 </head>
 <body>
@@ -13,12 +14,87 @@
         <a href="/" class="back">&leftarrow; Home</a>
         <img src="/ExtendedHotbar/icon.png" alt="">
         <span>ExtendedHotbar</span>
+        <button class="lang-toggle" type="button" title="Switch language / 切换语言" aria-label="Switch language / 切换语言">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+            </svg>
+            <span class="lang-label">EN</span>
+        </button>
     </header>
     <main>
-        Place the bottom bar of the player's inventory above the hotbar.
+        <h1>ExtendedHotbar</h1>
+        <p class="en">Place the bottom row of your inventory above the hotbar, doubling your quick-access slots.</p>
+        <p class="zh">将物品栏底行显示在快捷栏上方，让你的快捷访问格翻倍。</p>
+        <p class="en">Latest version: <strong>1.0.1</strong> for Minecraft <strong>1.21.11</strong>.</p>
+        <p class="zh">最新版本：<strong>1.0.1</strong>，适用于 Minecraft <strong>1.21.11</strong>。</p>
+
+        <section>
+            <h2><span class="en">Keybindings</span><span class="zh">按键</span></h2>
+            <ul>
+                <li><code>R</code> <span class="en">— Swap the hotbar with the row above it.</span><span class="zh">交换快捷栏与上方一行。</span></li>
+                <li><code>Shift+R</code> <span class="en">— Swap only the items in your hand.</span><span class="zh">仅交换手中的物品。</span></li>
+                <li><code>slot key</code> <span class="en">— Press the currently selected hotbar slot's key again to swap just that slot (disabled by default).</span><span class="zh">再次按下当前选中快捷栏格的按键，仅交换该格（默认关闭）。</span></li>
+                <li><code>=</code> <span class="en">— Enable or disable the mod.</span><span class="zh">启用或禁用本模组。</span></li>
+                <li><code>V</code> <span class="en">— Toggle fluent mode.</span><span class="zh">切换流畅模式。</span></li>
+            </ul>
+            <p class="en">All keybinds are configurable in Minecraft's "Controls" settings, under the "Extended Hotbar" category. Key actions are edge-triggered, so holding a key down won't repeat the action.</p>
+            <p class="zh">所有按键均可在 Minecraft「控制」设置中的「Extended Hotbar」分类下自定义。按键为边沿触发，长按不会重复触发。</p>
+        </section>
+
+        <section>
+            <h2><span class="en">Fluent Mode</span><span class="zh">流畅模式</span></h2>
+            <p class="en">Fluent mode swaps transparently as you scroll along a double-wide hotbar, rendering the second row next to the first instead of on top. Enable it from the configuration screen (requires <a href="https://www.curseforge.com/minecraft/mc-mods/modmenu">Mod Menu</a>) or by pressing <code>V</code>.</p>
+            <p class="zh">流畅模式会在你沿双倍宽度快捷栏滚动时自动交换，将第二行渲染在第一行旁边而非上方。可通过配置界面（需 <a href="https://www.curseforge.com/minecraft/mc-mods/modmenu">Mod Menu</a>）或按 <code>V</code> 键启用。</p>
+            <p class="en">While the secondary hotbar is selected, opening your inventory or any container (chest, furnace, etc.) shows your items in their original rows, and clicking or shift-clicking acts on the item you see. This works in single-player and on servers, in both survival and creative mode, including the creative inventory's item-grid tabs.</p>
+            <p class="zh">选中副快捷栏时，打开物品栏或任意容器（箱子、熔炉等）会以原始行显示物品，点击或 Shift 点击作用于你看到的物品——适用于单人游戏和服务器、生存与创造模式（含创造物品栏的物品网格标签页）。</p>
+        </section>
+
+        <section>
+            <h2><span class="en">Requirements</span><span class="zh">要求</span></h2>
+            <ul>
+                <li>Minecraft <strong>1.21.11</strong></li>
+                <li><a href="https://fabricmc.net/">Fabric Loader</a> 0.19.3+</li>
+                <li><a href="https://modrinth.com/mod/fabric-api">Fabric API</a></li>
+                <li>Java 21+</li>
+            </ul>
+            <p class="en">Optional: <a href="https://www.curseforge.com/minecraft/mc-mods/modmenu">Mod Menu</a> adds the in-game configuration screen. <a href="https://modrinth.com/mod/cloth-config">Cloth Config</a> is bundled in the mod jar.</p>
+            <p class="zh">可选：<a href="https://www.curseforge.com/minecraft/mc-mods/modmenu">Mod Menu</a> 提供游戏内配置界面。<a href="https://modrinth.com/mod/cloth-config">Cloth Config</a> 已内置在模组 jar 中。</p>
+        </section>
+
+        <section>
+            <h2><span class="en">Links</span><span class="zh">链接</span></h2>
+            <p><a href="https://github.com/IamFelix1111/extendedhotbar"><span class="en">Source code</span><span class="zh">源代码</span></a></p>
+        </section>
     </main>
     <footer>
         <span>&copy; 2026 <a href="https://github.com/IamFelix1111">IamFelix</a>.</span>
     </footer>
+    <script>
+        (function () {
+            const html = document.documentElement;
+            const btn = document.querySelector('.lang-toggle');
+            const label = document.querySelector('.lang-label');
+
+            function apply(lang) {
+                html.classList.remove('lang-en', 'lang-zh');
+                html.classList.add('lang-' + lang);
+                html.lang = lang;
+                label.textContent = lang === 'zh' ? '中文' : 'EN';
+                try { localStorage.setItem('extendedhotbar.lang', lang); } catch (e) {}
+            }
+
+            let saved = 'en';
+            try {
+                const v = localStorage.getItem('extendedhotbar.lang');
+                if (v === 'en' || v === 'zh') saved = v;
+            } catch (e) {}
+
+            apply(saved);
+
+            btn.addEventListener('click', function () {
+                apply(html.lang === 'zh' ? 'en' : 'zh');
+            });
+        })();
+    </script>
 </body>
 </html>

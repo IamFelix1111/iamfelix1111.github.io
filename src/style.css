@@ -12,8 +12,11 @@ header {
     color: #fff;
     font-size: 24px;
     font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 50px;
-    position: relative;
+    width: 100vw;
     .back {
         position: absolute;
         left: 15px;
@@ -32,8 +35,9 @@ header {
 }
 
 main {
+    margin-top: 50px;
     padding: 10px;
-    height: calc(100vh - 100px);
+    min-height: calc(100vh - 100px);
 }
 
 footer {
