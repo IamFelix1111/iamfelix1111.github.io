@@ -29,17 +29,17 @@ window.I18N = {
         'zh-tw': '將物品欄底行顯示在快捷欄上方，讓你的快捷訪問格翻倍。'
     },
     'version': {
-        'de': `Neueste Version: <strong>1.0.1</strong> für Minecraft <strong>1.21.11</strong>.`,
-        'en': `Latest version: <strong>1.0.1</strong> for Minecraft <strong>1.21.11</strong>.`,
-        'es': `Última versión: <strong>1.0.1</strong> para Minecraft <strong>1.21.11</strong>.`,
-        'fr': `Dernière version : <strong>1.0.1</strong> pour Minecraft <strong>1.21.11</strong>.`,
-        'it': `Ultima versione: <strong>1.0.1</strong> per Minecraft <strong>1.21.11</strong>.`,
-        'ja': `最新バージョン：<strong>1.0.1</strong>（Minecraft <strong>1.21.11</strong> 対応）`,
-        'ko': `최신 버전: <strong>1.0.1</strong> (Minecraft <strong>1.21.11</strong>용)`,
-        'pt': `Versão mais recente: <strong>1.0.1</strong> para Minecraft <strong>1.21.11</strong>.`,
-        'ru': `Последняя версия: <strong>1.0.1</strong> для Minecraft <strong>1.21.11</strong>.`,
-        'zh-cn': `最新版本：<strong>1.0.1</strong>，适用于 Minecraft <strong>1.21.11</strong>。`,
-        'zh-tw': '最新版本：<strong>1.0.1</strong>，適用於 Minecraft <strong>1.21.11</strong>。'
+        'de': `Neueste Version: <strong>1.0.2</strong> für Minecraft <strong>1.21.11</strong>.`,
+        'en': `Latest version: <strong>1.0.2</strong> for Minecraft <strong>1.21.11</strong>.`,
+        'es': `Última versión: <strong>1.0.2</strong> para Minecraft <strong>1.21.11</strong>.`,
+        'fr': `Dernière version : <strong>1.0.2</strong> pour Minecraft <strong>1.21.11</strong>.`,
+        'it': `Ultima versione: <strong>1.0.2</strong> per Minecraft <strong>1.21.11</strong>.`,
+        'ja': `最新バージョン：<strong>1.0.2</strong>（Minecraft <strong>1.21.11</strong> 対応）`,
+        'ko': `최신 버전: <strong>1.0.2</strong> (Minecraft <strong>1.21.11</strong>용)`,
+        'pt': `Versão mais recente: <strong>1.0.2</strong> para Minecraft <strong>1.21.11</strong>.`,
+        'ru': `Последняя версия: <strong>1.0.2</strong> для Minecraft <strong>1.21.11</strong>.`,
+        'zh-cn': `最新版本：<strong>1.0.2</strong>，适用于 Minecraft <strong>1.21.11</strong>。`,
+        'zh-tw': '最新版本：<strong>1.0.2</strong>，適用於 Minecraft <strong>1.21.11</strong>。'
     },
     'keybindings': {
         'de': `Tastenkürzel`,
@@ -222,5 +222,18 @@ window.I18N = {
         'ru': `Исходный код`,
         'zh-cn': `源代码`,
         'zh-tw': '原始碼'
+    },
+    'issues': {
+        'de': `Probleme`,
+        'en': `Issues`,
+        'es': `Problemas`,
+        'fr': `Problèmes`,
+        'it': `Problemi`,
+        'ja': `問題`,
+        'ko': `문제`,
+        'pt': `Problemas`,
+        'ru': `Проблемы`,
+        'zh-cn': `问题`,
+        'zh-tw': '問題'
     }
 };
