@@ -4,7 +4,7 @@
 // Set RECORDING_STABLE when the first stable release ships; empty shows "no stable release yet".
 // Keep the matching static text in index.html in sync (shown before JS runs).
 const RECORDING_STABLE = '';                 // e.g. 'v1.0.0' — empty until the first stable release
-const RECORDING_PRERELEASE = 'v0.2.0-test';  // empty when no pre-release exists
+const RECORDING_PRERELEASE = 'v0.3.0-test';  // empty when no pre-release exists
 
 window.I18N = window.I18N || {};
 Object.assign(window.I18N, {
@@ -175,6 +175,19 @@ Object.assign(window.I18N, {
         'ru': `<strong>Память настроек:</strong> каждый параметр сохраняется мгновенно и восстанавливается после перезапуска; недостающие папки вывода создаются автоматически.`,
         'zh-cn': `<strong>设置记忆：</strong>所有选项即时保存、重启自动恢复；输出目录不存在时自动创建。`,
         'zh-tw': `<strong>設定記憶：</strong>所有選項即時儲存、重新啟動自動還原；輸出資料夾不存在時自動建立。`
+    },
+    'feat-language': {
+        'de': `<strong>Oberflächensprache:</strong> Chinesisch und Englisch eingebaut — die Oberfläche folgt automatisch der Windows-Anzeigesprache.`,
+        'en': `<strong>UI language:</strong> Chinese and English built in — the interface follows your Windows display language automatically.`,
+        'es': `<strong>Idioma de la interfaz:</strong> chino e inglés integrados: la interfaz sigue automáticamente el idioma de visualización de Windows.`,
+        'fr': `<strong>Langue de l'interface :</strong> chinois et anglais intégrés — l'interface suit automatiquement la langue d'affichage de Windows.`,
+        'it': `<strong>Lingua dell'interfaccia:</strong> cinese e inglese integrati — l'interfaccia segue automaticamente la lingua di visualizzazione di Windows.`,
+        'ja': `<strong>UI言語：</strong>中国語と英語を内蔵。インターフェイスはWindowsの表示言語に自動的に追従します。`,
+        'ko': `<strong>UI 언어:</strong> 중국어와 영어를 내장 — 인터페이스는 Windows 표시 언어를 자동으로 따릅니다.`,
+        'pt': `<strong>Idioma da interface:</strong> chinês e inglês integrados — a interface segue automaticamente o idioma de exibição do Windows.`,
+        'ru': `<strong>Язык интерфейса:</strong> встроенные китайский и английский — интерфейс автоматически следует языку отображения Windows.`,
+        'zh-cn': `<strong>界面语言：</strong>内置中文/英文——界面自动跟随 Windows 显示语言。`,
+        'zh-tw': `<strong>介面語言：</strong>內建中文/英文——介面自動跟隨 Windows 顯示語言。`
     },
     'usage': {
         'de': `Verwendung`,
