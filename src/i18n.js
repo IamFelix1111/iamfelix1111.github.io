@@ -28,6 +28,19 @@ window.I18N = {
         'zh-cn': `链接`,
         'zh-tw': '連結'
     },
+    'downloads': {
+        'de': `Downloads`,
+        'en': `Downloads`,
+        'es': `Descargas`,
+        'fr': `Téléchargements`,
+        'it': `Download`,
+        'ja': `ダウンロード`,
+        'ko': `다운로드`,
+        'pt': `Downloads`,
+        'ru': `Скачать`,
+        'zh-cn': `下载`,
+        'zh-tw': `下載`
+    },
     'source-code': {
         'de': `Quellcode`,
         'en': `Source code`,
