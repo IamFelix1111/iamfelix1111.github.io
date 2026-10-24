@@ -188,5 +188,5 @@ Object.assign(window.I18N, {
         'ru': `Необязательно: <a href="https://www.curseforge.com/minecraft/mc-mods/modmenu">Mod Menu</a> добавляет экран настройки в игре. <a href="https://modrinth.com/mod/cloth-config">Cloth Config</a> входит в jar мода.`,
         'zh-cn': `可选：<a href="https://www.curseforge.com/minecraft/mc-mods/modmenu">Mod Menu</a> 提供游戏内配置界面。<a href="https://modrinth.com/mod/cloth-config">Cloth Config</a> 已内置在模组 jar 中。`,
         'zh-tw': '可選：<a href="https://www.curseforge.com/minecraft/mc-mods/modmenu">Mod Menu</a> 提供遊戲內設定畫面。<a href="https://modrinth.com/mod/cloth-config">Cloth Config</a> 已內建在模組 jar 中。'
-    }
+    },
 });

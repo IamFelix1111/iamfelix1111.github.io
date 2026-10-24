@@ -305,5 +305,5 @@ Object.assign(window.I18N, {
         'ru': `Больше ничего: всё статически слинковано в единственный <code>RecordingGui.exe</code>.`,
         'zh-cn': `无需其他运行库：全部静态链接进单个 <code>RecordingGui.exe</code>。`,
         'zh-tw': `無需其他執行階段程式：全部靜態連結進單一 <code>RecordingGui.exe</code>。`
-    }
+    },
 });

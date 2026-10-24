@@ -139,6 +139,10 @@ main {
     }
 }
 
+body:not(.with-script) .with-script{
+    display: none;
+}
+
 footer {
     display: flex;
     align-items: center;

@@ -1,6 +1,25 @@
 // Shared site translations used by every page.
 // Usage: elements with data-i18n="key" get their innerHTML replaced on language switch.
-// Missing translations fall back to zh-cn for zh-tw, then to English.
+// Missing translations fall back to the language's `fallback` declared in
+// window.LANGS below, then to English.
+
+// Languages shown by <lang-select>; components.js reads window.LANGS.
+// `fallback` (optional) is tried when a key has no translation for `code`,
+// before the site-wide last resort (English).
+window.LANGS = [
+    { code: 'de',    name: 'Deutsch',   label: 'DE' },
+    { code: 'en',    name: 'English',   label: 'EN' },
+    { code: 'es',    name: 'Español',   label: 'ES' },
+    { code: 'fr',    name: 'Français',  label: 'FR' },
+    { code: 'it',    name: 'Italiano',  label: 'IT' },
+    { code: 'ja',    name: '日本語',     label: '日' },
+    { code: 'ko',    name: '한국어',     label: '한' },
+    { code: 'pt',    name: 'Português', label: 'PT' },
+    { code: 'ru',    name: 'Русский',   label: 'RU' },
+    { code: 'zh-cn', name: '简体中文',   label: '中' },
+    { code: 'zh-tw', name: '繁體中文',   label: '繁', fallback: 'zh-cn' },
+];
+
 window.I18N = {
     'back': {
         'de': `&leftarrow; Start`,
@@ -66,5 +85,5 @@ window.I18N = {
         'ru': `Проблемы`,
         'zh-cn': `问题`,
         'zh-tw': '問題'
-    }
+    },
 };
