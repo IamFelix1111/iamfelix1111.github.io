@@ -3,6 +3,19 @@ html, body {
     margin: 0;
 }
 
+body {
+    &:not(.with-script) {
+        lang-select, .with-script {
+            display: none;
+        }
+    }
+    &.with-script {
+        .no-script {
+            display: none;
+        }
+    }
+}
+
 header {
     display: flex;
     align-items: center;
@@ -15,15 +28,23 @@ header {
     left: 0;
     height: 50px;
     width: 100vw;
+    -webkit-user-select: none;
+    user-select: none;
     .back {
         position: fixed;
         left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
         color: #fff;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: normal;
+        padding: 4px 6px;
+        border-radius: 6px;
         &:hover {
-            text-decoration: underline;
+            background: #666;
         }
     }
     .title {
@@ -137,10 +158,6 @@ main {
     p {
         margin: 0.5em 0;
     }
-}
-
-body:not(.with-script) .with-script{
-    display: none;
 }
 
 footer {
