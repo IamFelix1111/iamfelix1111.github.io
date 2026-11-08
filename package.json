@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "GitHub Pages",
   "devDependencies": {
-    "serve": "^14.2.6"
+    "serve": "^14.2.7"
   },
   "scripts": {
     "start": "serve src -l 8000 --ssl-cert cert.pem --ssl-key key.pem"
@@ -15,7 +15,7 @@
   "author": "IamFelix",
   "license": "LGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/IamFelix1111/iamfelix1111.github.io/issues"
+    "url": "https://github.com/IamFelix1111/iamfelix1111.github.io/issues/new"
   },
   "homepage": "https://iamfelix1111.github.io"
 }
