@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$USER_HOME$/WebstormProjects/Secrets/.idea/Secrets.iml" filepath="$USER_HOME$/WebstormProjects/Secrets/.idea/Secrets.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/iamfelix1111.github.io.iml" filepath="$PROJECT_DIR$/.idea/iamfelix1111.github.io.iml" />
+      <module fileurl="file://$USER_HOME$/WebstormProjects/netlify/.idea/netlify.iml" filepath="$USER_HOME$/WebstormProjects/netlify/.idea/netlify.iml" />
     </modules>
   </component>
 </project>

@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$USER_HOME$/WebstormProjects/Secrets" vcs="Git" />
+    <mapping directory="$USER_HOME$/WebstormProjects/netlify" vcs="Git" />
   </component>
 </project>
